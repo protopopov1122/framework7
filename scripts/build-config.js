@@ -124,6 +124,7 @@ const config = {
       gray: '#8e8e93',
       white: '#ffffff',
       black: '#000000',
+      steelblue: '#5c85b7',
       /*
       purple: '#5856d6',
       deeppurple: '#673ab7',
@@ -152,6 +153,7 @@ const config = {
       gray: '#9e9e9e',
       white: '#ffffff',
       black: '#000000',
+      steelblue: '#5c85b7',
       /*
       purple: '#9c27b0',
       deeppurple: '#673ab7',

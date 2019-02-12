@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: February 5, 2019
+ * Released on: February 12, 2019
  */
 
 import F7AccordionContent from './components/accordion-content';
