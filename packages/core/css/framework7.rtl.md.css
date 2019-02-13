@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: February 12, 2019
+ * Released on: February 13, 2019
  */
 html {
   direction: rtl;
@@ -127,6 +127,9 @@ p {
 .md .color-theme-steelblue a {
   color: #5c85b7;
 }
+.md .color-theme-darksteelblue a {
+  color: #34465c;
+}
 .md a.color-red {
   color: #f44336;
 }
@@ -156,6 +159,9 @@ p {
 }
 .md a.color-steelblue {
   color: #5c85b7;
+}
+.md a.color-darksteelblue {
+  color: #34465c;
 }
 /* === Statusbar === */
 .statusbar {
@@ -227,6 +233,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .color-theme-steelblue .statusbar {
   background: #3d5f8a;
+}
+.md .color-theme-darksteelblue .statusbar {
+  background: #18212b;
 }
 /* === Views === */
 .views,
@@ -675,6 +684,10 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-steelblue.navbar {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .navbar,
+.md .color-theme-darksteelblue.navbar {
+  background: #34465c;
+}
 .md .navbar.color-red {
   background: #f44336;
 }
@@ -704,6 +717,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .navbar.color-steelblue {
   background: #5c85b7;
+}
+.md .navbar.color-darksteelblue {
+  background: #34465c;
 }
 @media (orientation: landscape) {
   .md.device-iphone-x .ios-left-edge .navbar-inner,
@@ -1159,6 +1175,10 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-steelblue.toolbar:not(.messagebar) {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .toolbar:not(.messagebar),
+.md .color-theme-darksteelblue.toolbar:not(.messagebar) {
+  background: #34465c;
+}
 .md .toolbar:not(.messagebar).color-red {
   background: #f44336;
 }
@@ -1188,6 +1208,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .toolbar:not(.messagebar).color-steelblue {
   background: #5c85b7;
+}
+.md .toolbar:not(.messagebar).color-darksteelblue {
+  background: #34465c;
 }
 .md.device-iphone-x .views > .toolbar:first-child:not(.toolbar-bottom-md),
 .md.device-iphone-x .view > .toolbar:first-child:not(.toolbar-bottom-md),
@@ -1525,6 +1548,10 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-steelblue.subnavbar {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .subnavbar,
+.md .color-theme-darksteelblue.subnavbar {
+  background: #34465c;
+}
 .md .subnavbar.color-red {
   background: #f44336;
 }
@@ -1554,6 +1581,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .subnavbar.color-steelblue {
   background: #5c85b7;
+}
+.md .subnavbar.color-darksteelblue {
+  background: #34465c;
 }
 @media (orientation: landscape) {
   .md.device-iphone-x .ios-left-edge .subnavbar-inner,
@@ -3101,6 +3131,9 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 .md .color-theme-steelblue .list-button {
   color: #5c85b7;
 }
+.md .color-theme-darksteelblue .list-button {
+  color: #34465c;
+}
 .md .list .list-button.color-red,
 .md .list li.color-red .list-button,
 .md .links-list li.color-red a,
@@ -3191,6 +3224,15 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 .md .list li.color-steelblue .item-link {
   color: #5c85b7;
 }
+.md .list .list-button.color-darksteelblue,
+.md .list li.color-darksteelblue .list-button,
+.md .links-list li.color-darksteelblue a,
+.md .simple-list li.color-darksteelblue,
+.md .links-list a.color-darksteelblue,
+.md .list .item-link.color-darksteelblue,
+.md .list li.color-darksteelblue .item-link {
+  color: #34465c;
+}
 /* === Badge === */
 .badge {
   display: inline-block;
@@ -3254,6 +3296,9 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 }
 .md .badge.color-steelblue {
   background-color: #5c85b7;
+}
+.md .badge.color-darksteelblue {
+  background-color: #34465c;
 }
 button {
   -webkit-appearance: none;
@@ -3732,6 +3777,35 @@ button {
 .md .color-steelblue .button.button-outline {
   border-color: #5c85b7;
 }
+.md .color-theme-darksteelblue .button,
+.md .color-darksteelblue .button {
+  color: #34465c;
+}
+.md .color-theme-darksteelblue .button.button-fill,
+.md .color-darksteelblue .button.button-fill,
+.md .color-theme-darksteelblue .button.button-fill-md,
+.md .color-darksteelblue .button.button-fill-md,
+.md .color-theme-darksteelblue .button.button-active,
+.md .color-darksteelblue .button.button-active,
+.md .color-theme-darksteelblue .button.tab-link-active,
+.md .color-darksteelblue .button.tab-link-active {
+  background-color: #34465c;
+  color: #fff;
+}
+.md .color-theme-darksteelblue .button.button-fill.active-state,
+.md .color-darksteelblue .button.button-fill.active-state,
+.md .color-theme-darksteelblue .button.button-fill-md.active-state,
+.md .color-darksteelblue .button.button-fill-md.active-state,
+.md .color-theme-darksteelblue .button.button-active.active-state,
+.md .color-darksteelblue .button.button-active.active-state,
+.md .color-theme-darksteelblue .button.tab-link-active.active-state,
+.md .color-darksteelblue .button.tab-link-active.active-state {
+  background: #253242;
+}
+.md .color-theme-darksteelblue .button.button-outline,
+.md .color-darksteelblue .button.button-outline {
+  border-color: #34465c;
+}
 .md .button.color-red {
   color: #f44336;
 }
@@ -3922,6 +3996,25 @@ button {
 .md .button.color-steelblue.button-outline {
   border-color: #5c85b7;
 }
+.md .button.color-darksteelblue {
+  color: #34465c;
+}
+.md .button.color-darksteelblue.button-fill,
+.md .button.color-darksteelblue.button-fill-md,
+.md .button.color-darksteelblue.button-active,
+.md .button.color-darksteelblue.tab-link-active {
+  background-color: #34465c;
+  color: #fff;
+}
+.md .button.color-darksteelblue.button-fill.active-state,
+.md .button.color-darksteelblue.button-fill-md.active-state,
+.md .button.color-darksteelblue.button-active.active-state,
+.md .button.color-darksteelblue.tab-link-active.active-state {
+  background: #253242;
+}
+.md .button.color-darksteelblue.button-outline {
+  border-color: #34465c;
+}
 /* === Touch Ripple === */
 .md .ripple,
 .md .fab a,
@@ -4037,6 +4130,10 @@ button {
 .md .ripple-color-steelblue .ripple-wave,
 .md .ripple-steelblue .ripple-wave {
   background-color: rgba(92, 133, 183, 0.3);
+}
+.md .ripple-color-darksteelblue .ripple-wave,
+.md .ripple-darksteelblue .ripple-wave {
+  background-color: rgba(52, 70, 92, 0.3);
 }
 /* === Icon === */
 i.icon {
@@ -4241,6 +4338,22 @@ i.icon {
 .md a.link .color-steelblue .icon-next {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%235c85b7'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
 }
+.md .icon-forward.color-darksteelblue,
+.md a.link .color-darksteelblue .icon-forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%2334465c'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-back.color-darksteelblue,
+.md a.link .color-darksteelblue .icon-back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%2334465c'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-prev.color-darksteelblue,
+.md a.link .color-darksteelblue .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%2334465c'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-next.color-darksteelblue,
+.md a.link .color-darksteelblue .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%2334465c'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
 .md .icon.color-red {
   color: #f44336;
 }
@@ -4270,6 +4383,9 @@ i.icon {
 }
 .md .icon.color-steelblue {
   color: #5c85b7;
+}
+.md .icon.color-darksteelblue {
+  color: #34465c;
 }
 .custom-modal-backdrop {
   position: absolute;
@@ -4574,6 +4690,9 @@ input[type="button"].md .dialog-button {
 .md .dialog-button.color-steelblue {
   color: #5c85b7;
 }
+.md .dialog-button.color-darksteelblue {
+  color: #34465c;
+}
 /* === Popup === */
 .popup-backdrop {
   position: absolute;
@@ -4831,6 +4950,9 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
 .md .color-theme-steelblue .login-screen-content .list-button {
   color: #5c85b7;
 }
+.md .color-theme-darksteelblue .login-screen-content .list-button {
+  color: #34465c;
+}
 .md .login-screen-content .list-button.color-red {
   color: #f44336;
 }
@@ -4860,6 +4982,9 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
 }
 .md .login-screen-content .list-button.color-steelblue {
   color: #5c85b7;
+}
+.md .login-screen-content .list-button.color-darksteelblue {
+  color: #34465c;
 }
 /* === Popover === */
 .popover-backdrop {
@@ -5328,6 +5453,11 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
 .md .actions-label.color-steelblue,
 .md .actions-button.color-steelblue .actions-button-text {
   color: #5c85b7;
+}
+.md .actions-button.color-darksteelblue,
+.md .actions-label.color-darksteelblue,
+.md .actions-button.color-darksteelblue .actions-button-text {
+  color: #34465c;
 }
 .md.device-iphone-x .actions-modal.modal-in {
   padding-bottom: constant(safe-area-inset-bottom);
@@ -5799,6 +5929,12 @@ html.with-modal-preloader .page-content {
 .md .preloader.color-steelblue .preloader-inner-half-circle,
 .md .preloader.preloader-steelblue .preloader-inner-half-circle {
   border-color: #5c85b7;
+}
+.md .preloader.color-darksteelblue .preloader-inner-gap,
+.md .preloader.preloader-darksteelblue .preloader-inner-gap,
+.md .preloader.color-darksteelblue .preloader-inner-half-circle,
+.md .preloader.preloader-darksteelblue .preloader-inner-half-circle {
+  border-color: #34465c;
 }
 .md .preloader.color-multi .preloader-inner-left .preloader-inner-half-circle {
   -webkit-animation-name: md-preloader-left-rotate-multicolor;
@@ -6301,6 +6437,17 @@ body > .progressbar-infinite,
 .md .color-theme-steelblue .progressbar-infinite:after {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .progressbar,
+.md .color-theme-darksteelblue .progressbar-infinite {
+  background: rgba(52, 70, 92, 0.5);
+}
+.md .color-theme-darksteelblue .progressbar span {
+  background: #34465c;
+}
+.md .color-theme-darksteelblue .progressbar-infinite:before,
+.md .color-theme-darksteelblue .progressbar-infinite:after {
+  background: #34465c;
+}
 .md .progressbar.color-red,
 .md .progressbar-infinite.color-red {
   background: rgba(244, 67, 54, 0.5);
@@ -6410,6 +6557,17 @@ body > .progressbar-infinite,
 .md .progressbar-infinite.color-steelblue:before,
 .md .progressbar-infinite.color-steelblue:after {
   background: #5c85b7;
+}
+.md .progressbar.color-darksteelblue,
+.md .progressbar-infinite.color-darksteelblue {
+  background: rgba(52, 70, 92, 0.5);
+}
+.md .progressbar.color-darksteelblue span {
+  background: #34465c;
+}
+.md .progressbar-infinite.color-darksteelblue:before,
+.md .progressbar-infinite.color-darksteelblue:after {
+  background: #34465c;
 }
 @-webkit-keyframes md-progressbar-infinite-1 {
   0% {
@@ -6915,6 +7073,16 @@ body > .progressbar-infinite,
 .md .swipeout-actions-right > div.color-steelblue {
   background-color: #5c85b7;
 }
+.md .swipeout-actions-left > a.color-darksteelblue,
+.md .swipeout-actions-right > a.color-darksteelblue,
+.md .swipeout-actions-left > button.color-darksteelblue,
+.md .swipeout-actions-right > button.color-darksteelblue,
+.md .swipeout-actions-left > span.color-darksteelblue,
+.md .swipeout-actions-right > span.color-darksteelblue,
+.md .swipeout-actions-left > div.color-darksteelblue,
+.md .swipeout-actions-right > div.color-darksteelblue {
+  background-color: #34465c;
+}
 /* === Accordion === */
 .accordion-item-toggle {
   cursor: pointer;
@@ -7303,6 +7471,16 @@ html.device-android-4 .accordion-item-content {
 .md .list-index.color-theme-steelblue .list-index-label {
   background-color: #5c85b7;
 }
+.md .color-theme-darksteelblue .list-index ul,
+.md .list-index.color-theme-darksteelblue ul {
+  color: #34465c;
+}
+.md .color-theme-darksteelblue .list-index .list-index-skip-placeholder:after,
+.md .list-index.color-theme-darksteelblue .list-index-skip-placeholder:after,
+.md .color-theme-darksteelblue .list-index .list-index-label,
+.md .list-index.color-theme-darksteelblue .list-index-label {
+  background-color: #34465c;
+}
 .md .list-index.color-red ul {
   color: #f44336;
 }
@@ -7372,6 +7550,13 @@ html.device-android-4 .accordion-item-content {
 .md .list-index.color-steelblue .list-index-skip-placeholder:after,
 .md .list-index.color-steelblue .list-index-label {
   background-color: #5c85b7;
+}
+.md .list-index.color-darksteelblue ul {
+  color: #34465c;
+}
+.md .list-index.color-darksteelblue .list-index-skip-placeholder:after,
+.md .list-index.color-darksteelblue .list-index-label {
+  background-color: #34465c;
 }
 /* === Timeline === */
 .timeline {
@@ -8147,6 +8332,11 @@ html.device-android-4 .accordion-item-content {
 .md .color-theme-steelblue .timeline-month-title {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .timeline-item-date,
+.md .color-theme-darksteelblue .timeline-year-title,
+.md .color-theme-darksteelblue .timeline-month-title {
+  background: #34465c;
+}
 .md .timeline.color-theme-red .timeline-item-date,
 .md .timeline.color-theme-red .timeline-year-title,
 .md .timeline.color-theme-red .timeline-month-title {
@@ -8196,6 +8386,11 @@ html.device-android-4 .accordion-item-content {
 .md .timeline.color-theme-steelblue .timeline-year-title,
 .md .timeline.color-theme-steelblue .timeline-month-title {
   background: #5c85b7;
+}
+.md .timeline.color-theme-darksteelblue .timeline-item-date,
+.md .timeline.color-theme-darksteelblue .timeline-year-title,
+.md .timeline.color-theme-darksteelblue .timeline-month-title {
+  background: #34465c;
 }
 /* === Tabs === */
 .tabs .tab {
@@ -8731,6 +8926,12 @@ input[type="button"].md .card-footer a.link {
 .md .card-footer.color-theme-steelblue a.link {
   color: #5c85b7;
 }
+.md .color-theme-darksteelblue .card-header a.link,
+.md .color-theme-darksteelblue .card-footer a.link,
+.md .card-header.color-theme-darksteelblue a.link,
+.md .card-footer.color-theme-darksteelblue a.link {
+  color: #34465c;
+}
 .md .card-header a.link.color-red,
 .md .card-footer a.link.color-red {
   color: #f44336;
@@ -8770,6 +8971,10 @@ input[type="button"].md .card-footer a.link {
 .md .card-header a.link.color-steelblue,
 .md .card-footer a.link.color-steelblue {
   color: #5c85b7;
+}
+.md .card-header a.link.color-darksteelblue,
+.md .card-footer a.link.color-darksteelblue {
+  color: #34465c;
 }
 /* === Chips === */
 .chip {
@@ -8977,6 +9182,15 @@ input[type="button"].md .card-footer a.link {
   background: none;
   border-color: #5c85b7;
   color: #5c85b7;
+}
+.md .chip.color-darksteelblue {
+  background: #34465c;
+  color: #fff;
+}
+.md .chip.color-darksteelblue.chip-outline {
+  background: none;
+  border-color: #34465c;
+  color: #34465c;
 }
 /* === Input === */
 input[type="text"],
@@ -9666,6 +9880,14 @@ textarea {
 .md .color-theme-steelblue .input-after:after {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .item-input-focused .item-label,
+.md .color-theme-darksteelblue .item-input-focused .item-floating-label {
+  color: #34465c;
+}
+.md .color-theme-darksteelblue .item-input-focused .item-input-wrap:after,
+.md .color-theme-darksteelblue .input-after:after {
+  background: #34465c;
+}
 .md .item-input-focused.color-red .item-label,
 .md .item-input-focused.color-red .item-floating-label {
   color: #f44336;
@@ -9745,6 +9967,14 @@ textarea {
 .md .item-input-focused.color-steelblue .item-input-wrap:after,
 .md .input-after.color-steelblue:after {
   background: #5c85b7;
+}
+.md .item-input-focused.color-darksteelblue .item-label,
+.md .item-input-focused.color-darksteelblue .item-floating-label {
+  color: #34465c;
+}
+.md .item-input-focused.color-darksteelblue .item-input-wrap:after,
+.md .input-after.color-darksteelblue:after {
+  background: #34465c;
 }
 /* === Checkbox === */
 .icon-checkbox,
@@ -9943,6 +10173,15 @@ label.item-checkbox.disabled,
 .md .color-theme-steelblue .checkbox .ripple-wave {
   background: rgba(92, 133, 183, 0.5);
 }
+.md .color-theme-darksteelblue label.item-checkbox input[type="checkbox"]:checked ~ .icon-checkbox,
+.md .color-theme-darksteelblue label.item-checkbox input[type="checkbox"]:checked ~ * .icon-checkbox,
+.md .color-theme-darksteelblue .checkbox input[type="checkbox"]:checked ~ i {
+  background-color: #34465c;
+  border-color: #34465c;
+}
+.md .color-theme-darksteelblue .checkbox .ripple-wave {
+  background: rgba(52, 70, 92, 0.5);
+}
 .md label.item-checkbox.color-red input[type="checkbox"]:checked ~ .icon-checkbox,
 .md label.item-checkbox.color-red input[type="checkbox"]:checked ~ * .icon-checkbox,
 .md .checkbox.color-red input[type="checkbox"]:checked ~ i {
@@ -10032,6 +10271,15 @@ label.item-checkbox.disabled,
 }
 .md .checkbox.color-steelblue .ripple-wave {
   background: rgba(92, 133, 183, 0.5);
+}
+.md label.item-checkbox.color-darksteelblue input[type="checkbox"]:checked ~ .icon-checkbox,
+.md label.item-checkbox.color-darksteelblue input[type="checkbox"]:checked ~ * .icon-checkbox,
+.md .checkbox.color-darksteelblue input[type="checkbox"]:checked ~ i {
+  background-color: #34465c;
+  border-color: #34465c;
+}
+.md .checkbox.color-darksteelblue .ripple-wave {
+  background: rgba(52, 70, 92, 0.5);
 }
 /* === Radio === */
 .icon-radio {
@@ -10304,6 +10552,22 @@ label.item-radio.disabled,
 .md .color-theme-steelblue .radio .ripple-wave {
   background: rgba(92, 133, 183, 0.5);
 }
+.md .color-theme-darksteelblue .icon-radio:after {
+  background-color: #34465c;
+}
+.md .color-theme-darksteelblue label.item-radio input[type="radio"]:checked ~ .icon-radio,
+.md .color-theme-darksteelblue label.item-radio input[type="radio"]:checked ~ * .icon-radio,
+.md .color-theme-darksteelblue .radio input[type="radio"]:checked ~ .icon-radio {
+  border-color: #34465c;
+}
+.md .color-theme-darksteelblue label.item-radio input[type="radio"]:checked ~ .icon-radio:after,
+.md .color-theme-darksteelblue label.item-radio input[type="radio"]:checked ~ * .icon-radio:after,
+.md .color-theme-darksteelblue .radio input[type="radio"]:checked ~ .icon-radio:after {
+  background-color: #34465c;
+}
+.md .color-theme-darksteelblue .radio .ripple-wave {
+  background: rgba(52, 70, 92, 0.5);
+}
 .md .radio.color-red .icon-radio:after {
   background-color: #f44336;
 }
@@ -10464,6 +10728,22 @@ label.item-radio.disabled,
 .md .radio.color-steelblue .ripple-wave {
   background: rgba(92, 133, 183, 0.5);
 }
+.md .radio.color-darksteelblue .icon-radio:after {
+  background-color: #34465c;
+}
+.md label.item-radio.color-darksteelblue input[type="radio"]:checked ~ .icon-radio,
+.md label.item-radio.color-darksteelblue input[type="radio"]:checked ~ * .icon-radio,
+.md .radio.color-darksteelblue input[type="radio"]:checked ~ .icon-radio {
+  border-color: #34465c;
+}
+.md label.item-radio.color-darksteelblue input[type="radio"]:checked ~ .icon-radio:after,
+.md label.item-radio.color-darksteelblue input[type="radio"]:checked ~ * .icon-radio:after,
+.md .radio.color-darksteelblue input[type="radio"]:checked ~ .icon-radio:after {
+  background-color: #34465c;
+}
+.md .radio.color-darksteelblue .ripple-wave {
+  background: rgba(52, 70, 92, 0.5);
+}
 /* === Toggle === */
 .toggle {
   display: inline-block;
@@ -10601,6 +10881,12 @@ label.item-radio.disabled,
 .md .color-theme-steelblue .toggle input[type="checkbox"]:checked + .toggle-icon:after {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .toggle input[type="checkbox"]:checked + .toggle-icon {
+  background: rgba(52, 70, 92, 0.5);
+}
+.md .color-theme-darksteelblue .toggle input[type="checkbox"]:checked + .toggle-icon:after {
+  background: #34465c;
+}
 .md .toggle.color-red input[type="checkbox"]:checked + .toggle-icon {
   background: rgba(244, 67, 54, 0.5);
 }
@@ -10660,6 +10946,12 @@ label.item-radio.disabled,
 }
 .md .toggle.color-steelblue input[type="checkbox"]:checked + .toggle-icon:after {
   background: #5c85b7;
+}
+.md .toggle.color-darksteelblue input[type="checkbox"]:checked + .toggle-icon {
+  background: rgba(52, 70, 92, 0.5);
+}
+.md .toggle.color-darksteelblue input[type="checkbox"]:checked + .toggle-icon:after {
+  background: #34465c;
 }
 /* === Range Slider === */
 .range-slider {
@@ -10863,6 +11155,12 @@ label.item-radio.disabled,
 .md .color-theme-steelblue .range-slider .range-knob-label:before {
   background-color: #5c85b7;
 }
+.md .color-theme-darksteelblue .range-slider .range-bar-active,
+.md .color-theme-darksteelblue .range-slider .range-knob,
+.md .color-theme-darksteelblue .range-slider .range-knob-label,
+.md .color-theme-darksteelblue .range-slider .range-knob-label:before {
+  background-color: #34465c;
+}
 .md .range-slider.color-red .range-bar-active,
 .md .range-slider.color-red .range-knob,
 .md .range-slider.color-red .range-knob-label,
@@ -10922,6 +11220,12 @@ label.item-radio.disabled,
 .md .range-slider.color-steelblue .range-knob-label,
 .md .range-slider.color-steelblue .range-knob-label:before {
   background-color: #5c85b7;
+}
+.md .range-slider.color-darksteelblue .range-bar-active,
+.md .range-slider.color-darksteelblue .range-knob,
+.md .range-slider.color-darksteelblue .range-knob-label,
+.md .range-slider.color-darksteelblue .range-knob-label:before {
+  background-color: #34465c;
 }
 /* === Stepper === */
 .stepper {
@@ -11773,6 +12077,58 @@ label.item-radio.disabled,
 .md .color-theme-steelblue .stepper-fill-md .stepper-button-plus:before {
   background: #fff;
 }
+.md .color-theme-darksteelblue .stepper-button,
+.md .color-theme-darksteelblue .stepper-button-minus,
+.md .color-theme-darksteelblue .stepper-button-plus {
+  border-color: #34465c;
+  color: #34465c;
+}
+.md .color-theme-darksteelblue .stepper-button-plus:after,
+.md .color-theme-darksteelblue .stepper-button-minus:after,
+.md .color-theme-darksteelblue .stepper-button-plus:before,
+.md .color-theme-darksteelblue .stepper-button-minus:before {
+  background: #34465c;
+}
+.md .color-theme-darksteelblue .stepper-value,
+.md .color-theme-darksteelblue .stepper-input-wrap {
+  border-top-color: #34465c;
+  border-bottom-color: #34465c;
+}
+.md .color-theme-darksteelblue .stepper-value,
+.md .color-theme-darksteelblue .stepper-input-wrap input {
+  color: #34465c;
+}
+.md .color-theme-darksteelblue .stepper-fill .stepper-button,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button-minus,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button-minus,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button-plus,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button-plus {
+  background-color: #34465c;
+  color: #fff;
+}
+.md .color-theme-darksteelblue .stepper-fill .stepper-button.active-state,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button.active-state,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button-minus.active-state,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button-minus.active-state,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button-plus.active-state,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button-plus.active-state {
+  background: #253242;
+}
+.md .color-theme-darksteelblue .stepper-fill .stepper-button:after,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button:after,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button-minus:after,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button-minus:after,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button-plus:after,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button-plus:after,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button:before,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button:before,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button-minus:before,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button-minus:before,
+.md .color-theme-darksteelblue .stepper-fill .stepper-button-plus:before,
+.md .color-theme-darksteelblue .stepper-fill-md .stepper-button-plus:before {
+  background: #fff;
+}
 .md .stepper.color-red .stepper-button,
 .md .stepper.color-red .stepper-button-minus,
 .md .stepper.color-red .stepper-button-plus {
@@ -12291,6 +12647,58 @@ label.item-radio.disabled,
 .md .stepper-fill-md.color-steelblue .stepper-button-minus:before,
 .md .stepper-fill.color-steelblue .stepper-button-plus:before,
 .md .stepper-fill-md.color-steelblue .stepper-button-plus:before {
+  background: #fff;
+}
+.md .stepper.color-darksteelblue .stepper-button,
+.md .stepper.color-darksteelblue .stepper-button-minus,
+.md .stepper.color-darksteelblue .stepper-button-plus {
+  border-color: #34465c;
+  color: #34465c;
+}
+.md .stepper.color-darksteelblue .stepper-button-plus:after,
+.md .stepper.color-darksteelblue .stepper-button-minus:after,
+.md .stepper.color-darksteelblue .stepper-button-plus:before,
+.md .stepper.color-darksteelblue .stepper-button-minus:before {
+  background: #34465c;
+}
+.md .stepper.color-darksteelblue .stepper-value,
+.md .stepper.color-darksteelblue .stepper-input-wrap {
+  border-top-color: #34465c;
+  border-bottom-color: #34465c;
+}
+.md .stepper.color-darksteelblue .stepper-value,
+.md .stepper.color-darksteelblue .stepper-input-wrap input {
+  color: #34465c;
+}
+.md .stepper-fill.color-darksteelblue .stepper-button,
+.md .stepper-fill-md.color-darksteelblue .stepper-button,
+.md .stepper-fill.color-darksteelblue .stepper-button-minus,
+.md .stepper-fill-md.color-darksteelblue .stepper-button-minus,
+.md .stepper-fill.color-darksteelblue .stepper-button-plus,
+.md .stepper-fill-md.color-darksteelblue .stepper-button-plus {
+  background-color: #34465c;
+  color: #fff;
+}
+.md .stepper-fill.color-darksteelblue .stepper-button.active-state,
+.md .stepper-fill-md.color-darksteelblue .stepper-button.active-state,
+.md .stepper-fill.color-darksteelblue .stepper-button-minus.active-state,
+.md .stepper-fill-md.color-darksteelblue .stepper-button-minus.active-state,
+.md .stepper-fill.color-darksteelblue .stepper-button-plus.active-state,
+.md .stepper-fill-md.color-darksteelblue .stepper-button-plus.active-state {
+  background: #253242;
+}
+.md .stepper-fill.color-darksteelblue .stepper-button:after,
+.md .stepper-fill-md.color-darksteelblue .stepper-button:after,
+.md .stepper-fill.color-darksteelblue .stepper-button-minus:after,
+.md .stepper-fill-md.color-darksteelblue .stepper-button-minus:after,
+.md .stepper-fill.color-darksteelblue .stepper-button-plus:after,
+.md .stepper-fill-md.color-darksteelblue .stepper-button-plus:after,
+.md .stepper-fill.color-darksteelblue .stepper-button:before,
+.md .stepper-fill-md.color-darksteelblue .stepper-button:before,
+.md .stepper-fill.color-darksteelblue .stepper-button-minus:before,
+.md .stepper-fill-md.color-darksteelblue .stepper-button-minus:before,
+.md .stepper-fill.color-darksteelblue .stepper-button-plus:before,
+.md .stepper-fill-md.color-darksteelblue .stepper-button-plus:before {
   background: #fff;
 }
 /* === Smart Select === */
@@ -14085,6 +14493,27 @@ label.item-radio.disabled,
 .md .color-steelblue .calendar-day .calendar-day-event {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .calendar-header,
+.md .color-darksteelblue .calendar-header {
+  background: #34465c;
+}
+.md .color-theme-darksteelblue .calendar-day.calendar-day-today .calendar-day-number,
+.md .color-darksteelblue .calendar-day.calendar-day-today .calendar-day-number {
+  color: #34465c;
+}
+.md .color-theme-darksteelblue .calendar-day.calendar-day-selected .calendar-day-number,
+.md .color-darksteelblue .calendar-day.calendar-day-selected .calendar-day-number {
+  background: #34465c;
+  color: #fff;
+}
+.md .color-theme-darksteelblue .calendar-day.calendar-day-selected .calendar-day-number:after,
+.md .color-darksteelblue .calendar-day.calendar-day-selected .calendar-day-number:after {
+  background-color: #fff;
+}
+.md .color-theme-darksteelblue .calendar-day .calendar-day-event,
+.md .color-darksteelblue .calendar-day .calendar-day-event {
+  background: #34465c;
+}
 /* === Picker === */
 .picker {
   width: 100%;
@@ -15142,6 +15571,14 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active) .table
 .md .color-steelblue .data-table-title-selected {
   color: #5c85b7;
 }
+.md .color-theme-darksteelblue .data-table-header-selected,
+.md .data-table-header-selected.color-darksteelblue {
+  background: rgba(52, 70, 92, 0.1);
+}
+.md .color-theme-darksteelblue .data-table-title-selected,
+.md .color-darksteelblue .data-table-title-selected {
+  color: #34465c;
+}
 /* === FAB === */
 .fab {
   position: absolute;
@@ -15693,6 +16130,22 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active) .table
 .md .color-theme-steelblue.fab-morph {
   background: #5c85b7;
 }
+.md .color-theme-darksteelblue .fab > a,
+.md .color-theme-darksteelblue .fab-buttons a,
+.md .color-theme-darksteelblue.fab > a,
+.md .color-theme-darksteelblue.fab-buttons a {
+  background: #34465c;
+}
+.md .color-theme-darksteelblue .fab > a.active-state,
+.md .color-theme-darksteelblue .fab-buttons a.active-state,
+.md .color-theme-darksteelblue.fab > a.active-state,
+.md .color-theme-darksteelblue.fab-buttons a.active-state {
+  background: #253242;
+}
+.md .color-theme-darksteelblue .fab-morph,
+.md .color-theme-darksteelblue.fab-morph {
+  background: #34465c;
+}
 .md .fab.color-red > a,
 .md .fab.color-red .fab-buttons > a,
 .md .fab-buttons.color-red a,
@@ -15862,6 +16315,23 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active) .table
 }
 .md .fab-morph.color-steelblue {
   background: #5c85b7;
+}
+.md .fab.color-darksteelblue > a,
+.md .fab.color-darksteelblue .fab-buttons > a,
+.md .fab-buttons.color-darksteelblue a,
+.md .fab > a.color-darksteelblue,
+.md .fab .fab-buttons > a.color-darksteelblue {
+  background: #34465c;
+}
+.md .fab.color-darksteelblue > a.active-state,
+.md .fab.color-darksteelblue .fab-buttons > a.active-state,
+.md .fab-buttons.color-darksteelblue a.active-state,
+.md .fab > a.color-darksteelblue.active-state,
+.md .fab .fab-buttons > a.color-darksteelblue.active-state {
+  background: #253242;
+}
+.md .fab-morph.color-darksteelblue {
+  background: #34465c;
 }
 .md.device-iphone-x .fab[class*="-bottom"] {
   bottom: calc(16px + constant(safe-area-inset-bottom));
@@ -17822,6 +18292,34 @@ button.swiper-pagination-bullet {
 .md .color-theme-steelblue.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
   background: #5c85b7;
 }
+.md .swiper-button-prev.color-darksteelblue,
+.md .swiper-container-rtl .swiper-button-next.color-darksteelblue,
+.md .color-theme-darksteelblue .swiper-button-prev,
+.md .color-theme-darksteelblue .swiper-container-rtl .swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%2334465c'%2F%3E%3C%2Fsvg%3E");
+}
+.md .swiper-button-next.color-darksteelblue,
+.md .swiper-container-rtl .swiper-button-prev.color-darksteelblue,
+.md .color-theme-darksteelblue .swiper-button-next,
+.md .color-theme-darksteelblue .swiper-container-rtl .swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%2334465c'%2F%3E%3C%2Fsvg%3E");
+}
+.md .color-darksteelblue .swiper-pagination-bullet-active,
+.md .color-theme-darksteelblue .swiper-pagination-bullet-active {
+  background: #34465c;
+}
+.md .color-darksteelblue .swiper-pagination-progressbar,
+.md .color-theme-darksteelblue .swiper-pagination-progressbar,
+.md .color-darksteelblue.swiper-pagination-progressbar,
+.md .color-theme-darksteelblue.swiper-pagination-progressbar {
+  background: rgba(52, 70, 92, 0.25);
+}
+.md .color-darksteelblue .swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
+.md .color-theme-darksteelblue .swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
+.md .color-darksteelblue.swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
+.md .color-theme-darksteelblue.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #34465c;
+}
 /* === Photo Browser === */
 .photo-browser {
   position: absolute;
@@ -18182,6 +18680,12 @@ button.swiper-pagination-bullet {
 .md .color-theme-steelblue .photo-browser-page:not(.photo-browser-page-dark) .toolbar,
 .md .color-steelblue .photo-browser-page:not(.photo-browser-page-dark) .toolbar {
   background-color: rgba(92, 133, 183, 0.95);
+}
+.md .color-theme-darksteelblue .photo-browser-page:not(.photo-browser-page-dark) .navbar,
+.md .color-darksteelblue .photo-browser-page:not(.photo-browser-page-dark) .navbar,
+.md .color-theme-darksteelblue .photo-browser-page:not(.photo-browser-page-dark) .toolbar,
+.md .color-darksteelblue .photo-browser-page:not(.photo-browser-page-dark) .toolbar {
+  background-color: rgba(52, 70, 92, 0.95);
 }
 .md.device-iphone-x .photo-browser-captions {
   bottom: constant(safe-area-inset-bottom);
@@ -19438,4 +19942,13 @@ iframe#viAd {
 }
 .md .border-color-steelblue {
   border-color: #5c85b7 !important;
+}
+.md .text-color-darksteelblue {
+  color: #34465c !important;
+}
+.md .bg-color-darksteelblue {
+  background-color: #34465c !important;
+}
+.md .border-color-darksteelblue {
+  border-color: #34465c !important;
 }
