@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: February 13, 2019
+ * Released on: March 20, 2019
  */
 html {
   direction: rtl;
@@ -130,6 +130,9 @@ p {
 .md .color-theme-darksteelblue a {
   color: #34465c;
 }
+.md .color-theme-darkergreen a {
+  color: #aac911;
+}
 .md a.color-red {
   color: #f44336;
 }
@@ -162,6 +165,9 @@ p {
 }
 .md a.color-darksteelblue {
   color: #34465c;
+}
+.md a.color-darkergreen {
+  color: #aac911;
 }
 /* === Statusbar === */
 .statusbar {
@@ -236,6 +242,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .color-theme-darksteelblue .statusbar {
   background: #18212b;
+}
+.md .color-theme-darkergreen .statusbar {
+  background: #6e820b;
 }
 /* === Views === */
 .views,
@@ -688,6 +697,10 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-darksteelblue.navbar {
   background: #34465c;
 }
+.md .color-theme-darkergreen .navbar,
+.md .color-theme-darkergreen.navbar {
+  background: #aac911;
+}
 .md .navbar.color-red {
   background: #f44336;
 }
@@ -720,6 +733,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .navbar.color-darksteelblue {
   background: #34465c;
+}
+.md .navbar.color-darkergreen {
+  background: #aac911;
 }
 @media (orientation: landscape) {
   .md.device-iphone-x .ios-left-edge .navbar-inner,
@@ -1179,6 +1195,10 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-darksteelblue.toolbar:not(.messagebar) {
   background: #34465c;
 }
+.md .color-theme-darkergreen .toolbar:not(.messagebar),
+.md .color-theme-darkergreen.toolbar:not(.messagebar) {
+  background: #aac911;
+}
 .md .toolbar:not(.messagebar).color-red {
   background: #f44336;
 }
@@ -1211,6 +1231,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .toolbar:not(.messagebar).color-darksteelblue {
   background: #34465c;
+}
+.md .toolbar:not(.messagebar).color-darkergreen {
+  background: #aac911;
 }
 .md.device-iphone-x .views > .toolbar:first-child:not(.toolbar-bottom-md),
 .md.device-iphone-x .view > .toolbar:first-child:not(.toolbar-bottom-md),
@@ -1552,6 +1575,10 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-darksteelblue.subnavbar {
   background: #34465c;
 }
+.md .color-theme-darkergreen .subnavbar,
+.md .color-theme-darkergreen.subnavbar {
+  background: #aac911;
+}
 .md .subnavbar.color-red {
   background: #f44336;
 }
@@ -1584,6 +1611,9 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .subnavbar.color-darksteelblue {
   background: #34465c;
+}
+.md .subnavbar.color-darkergreen {
+  background: #aac911;
 }
 @media (orientation: landscape) {
   .md.device-iphone-x .ios-left-edge .subnavbar-inner,
@@ -3134,6 +3164,9 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 .md .color-theme-darksteelblue .list-button {
   color: #34465c;
 }
+.md .color-theme-darkergreen .list-button {
+  color: #aac911;
+}
 .md .list .list-button.color-red,
 .md .list li.color-red .list-button,
 .md .links-list li.color-red a,
@@ -3233,6 +3266,15 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 .md .list li.color-darksteelblue .item-link {
   color: #34465c;
 }
+.md .list .list-button.color-darkergreen,
+.md .list li.color-darkergreen .list-button,
+.md .links-list li.color-darkergreen a,
+.md .simple-list li.color-darkergreen,
+.md .links-list a.color-darkergreen,
+.md .list .item-link.color-darkergreen,
+.md .list li.color-darkergreen .item-link {
+  color: #aac911;
+}
 /* === Badge === */
 .badge {
   display: inline-block;
@@ -3299,6 +3341,9 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 }
 .md .badge.color-darksteelblue {
   background-color: #34465c;
+}
+.md .badge.color-darkergreen {
+  background-color: #aac911;
 }
 button {
   -webkit-appearance: none;
@@ -3806,6 +3851,35 @@ button {
 .md .color-darksteelblue .button.button-outline {
   border-color: #34465c;
 }
+.md .color-theme-darkergreen .button,
+.md .color-darkergreen .button {
+  color: #aac911;
+}
+.md .color-theme-darkergreen .button.button-fill,
+.md .color-darkergreen .button.button-fill,
+.md .color-theme-darkergreen .button.button-fill-md,
+.md .color-darkergreen .button.button-fill-md,
+.md .color-theme-darkergreen .button.button-active,
+.md .color-darkergreen .button.button-active,
+.md .color-theme-darkergreen .button.tab-link-active,
+.md .color-darkergreen .button.tab-link-active {
+  background-color: #aac911;
+  color: #fff;
+}
+.md .color-theme-darkergreen .button.button-fill.active-state,
+.md .color-darkergreen .button.button-fill.active-state,
+.md .color-theme-darkergreen .button.button-fill-md.active-state,
+.md .color-darkergreen .button.button-fill-md.active-state,
+.md .color-theme-darkergreen .button.button-active.active-state,
+.md .color-darkergreen .button.button-active.active-state,
+.md .color-theme-darkergreen .button.tab-link-active.active-state,
+.md .color-darkergreen .button.tab-link-active.active-state {
+  background: #8aa30e;
+}
+.md .color-theme-darkergreen .button.button-outline,
+.md .color-darkergreen .button.button-outline {
+  border-color: #aac911;
+}
 .md .button.color-red {
   color: #f44336;
 }
@@ -4015,6 +4089,25 @@ button {
 .md .button.color-darksteelblue.button-outline {
   border-color: #34465c;
 }
+.md .button.color-darkergreen {
+  color: #aac911;
+}
+.md .button.color-darkergreen.button-fill,
+.md .button.color-darkergreen.button-fill-md,
+.md .button.color-darkergreen.button-active,
+.md .button.color-darkergreen.tab-link-active {
+  background-color: #aac911;
+  color: #fff;
+}
+.md .button.color-darkergreen.button-fill.active-state,
+.md .button.color-darkergreen.button-fill-md.active-state,
+.md .button.color-darkergreen.button-active.active-state,
+.md .button.color-darkergreen.tab-link-active.active-state {
+  background: #8aa30e;
+}
+.md .button.color-darkergreen.button-outline {
+  border-color: #aac911;
+}
 /* === Touch Ripple === */
 .md .ripple,
 .md .fab a,
@@ -4134,6 +4227,10 @@ button {
 .md .ripple-color-darksteelblue .ripple-wave,
 .md .ripple-darksteelblue .ripple-wave {
   background-color: rgba(52, 70, 92, 0.3);
+}
+.md .ripple-color-darkergreen .ripple-wave,
+.md .ripple-darkergreen .ripple-wave {
+  background-color: rgba(170, 201, 17, 0.3);
 }
 /* === Icon === */
 i.icon {
@@ -4354,6 +4451,22 @@ i.icon {
 .md a.link .color-darksteelblue .icon-next {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%2334465c'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
 }
+.md .icon-forward.color-darkergreen,
+.md a.link .color-darkergreen .icon-forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%23aac911'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-back.color-darkergreen,
+.md a.link .color-darkergreen .icon-back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%23aac911'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-prev.color-darkergreen,
+.md a.link .color-darkergreen .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23aac911'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-next.color-darkergreen,
+.md a.link .color-darkergreen .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23aac911'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
 .md .icon.color-red {
   color: #f44336;
 }
@@ -4386,6 +4499,9 @@ i.icon {
 }
 .md .icon.color-darksteelblue {
   color: #34465c;
+}
+.md .icon.color-darkergreen {
+  color: #aac911;
 }
 .custom-modal-backdrop {
   position: absolute;
@@ -4693,6 +4809,9 @@ input[type="button"].md .dialog-button {
 .md .dialog-button.color-darksteelblue {
   color: #34465c;
 }
+.md .dialog-button.color-darkergreen {
+  color: #aac911;
+}
 /* === Popup === */
 .popup-backdrop {
   position: absolute;
@@ -4953,6 +5072,9 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
 .md .color-theme-darksteelblue .login-screen-content .list-button {
   color: #34465c;
 }
+.md .color-theme-darkergreen .login-screen-content .list-button {
+  color: #aac911;
+}
 .md .login-screen-content .list-button.color-red {
   color: #f44336;
 }
@@ -4985,6 +5107,9 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
 }
 .md .login-screen-content .list-button.color-darksteelblue {
   color: #34465c;
+}
+.md .login-screen-content .list-button.color-darkergreen {
+  color: #aac911;
 }
 /* === Popover === */
 .popover-backdrop {
@@ -5458,6 +5583,11 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
 .md .actions-label.color-darksteelblue,
 .md .actions-button.color-darksteelblue .actions-button-text {
   color: #34465c;
+}
+.md .actions-button.color-darkergreen,
+.md .actions-label.color-darkergreen,
+.md .actions-button.color-darkergreen .actions-button-text {
+  color: #aac911;
 }
 .md.device-iphone-x .actions-modal.modal-in {
   padding-bottom: constant(safe-area-inset-bottom);
@@ -5935,6 +6065,12 @@ html.with-modal-preloader .page-content {
 .md .preloader.color-darksteelblue .preloader-inner-half-circle,
 .md .preloader.preloader-darksteelblue .preloader-inner-half-circle {
   border-color: #34465c;
+}
+.md .preloader.color-darkergreen .preloader-inner-gap,
+.md .preloader.preloader-darkergreen .preloader-inner-gap,
+.md .preloader.color-darkergreen .preloader-inner-half-circle,
+.md .preloader.preloader-darkergreen .preloader-inner-half-circle {
+  border-color: #aac911;
 }
 .md .preloader.color-multi .preloader-inner-left .preloader-inner-half-circle {
   -webkit-animation-name: md-preloader-left-rotate-multicolor;
@@ -6448,6 +6584,17 @@ body > .progressbar-infinite,
 .md .color-theme-darksteelblue .progressbar-infinite:after {
   background: #34465c;
 }
+.md .color-theme-darkergreen .progressbar,
+.md .color-theme-darkergreen .progressbar-infinite {
+  background: rgba(170, 201, 17, 0.5);
+}
+.md .color-theme-darkergreen .progressbar span {
+  background: #aac911;
+}
+.md .color-theme-darkergreen .progressbar-infinite:before,
+.md .color-theme-darkergreen .progressbar-infinite:after {
+  background: #aac911;
+}
 .md .progressbar.color-red,
 .md .progressbar-infinite.color-red {
   background: rgba(244, 67, 54, 0.5);
@@ -6568,6 +6715,17 @@ body > .progressbar-infinite,
 .md .progressbar-infinite.color-darksteelblue:before,
 .md .progressbar-infinite.color-darksteelblue:after {
   background: #34465c;
+}
+.md .progressbar.color-darkergreen,
+.md .progressbar-infinite.color-darkergreen {
+  background: rgba(170, 201, 17, 0.5);
+}
+.md .progressbar.color-darkergreen span {
+  background: #aac911;
+}
+.md .progressbar-infinite.color-darkergreen:before,
+.md .progressbar-infinite.color-darkergreen:after {
+  background: #aac911;
 }
 @-webkit-keyframes md-progressbar-infinite-1 {
   0% {
@@ -7083,6 +7241,16 @@ body > .progressbar-infinite,
 .md .swipeout-actions-right > div.color-darksteelblue {
   background-color: #34465c;
 }
+.md .swipeout-actions-left > a.color-darkergreen,
+.md .swipeout-actions-right > a.color-darkergreen,
+.md .swipeout-actions-left > button.color-darkergreen,
+.md .swipeout-actions-right > button.color-darkergreen,
+.md .swipeout-actions-left > span.color-darkergreen,
+.md .swipeout-actions-right > span.color-darkergreen,
+.md .swipeout-actions-left > div.color-darkergreen,
+.md .swipeout-actions-right > div.color-darkergreen {
+  background-color: #aac911;
+}
 /* === Accordion === */
 .accordion-item-toggle {
   cursor: pointer;
@@ -7481,6 +7649,16 @@ html.device-android-4 .accordion-item-content {
 .md .list-index.color-theme-darksteelblue .list-index-label {
   background-color: #34465c;
 }
+.md .color-theme-darkergreen .list-index ul,
+.md .list-index.color-theme-darkergreen ul {
+  color: #aac911;
+}
+.md .color-theme-darkergreen .list-index .list-index-skip-placeholder:after,
+.md .list-index.color-theme-darkergreen .list-index-skip-placeholder:after,
+.md .color-theme-darkergreen .list-index .list-index-label,
+.md .list-index.color-theme-darkergreen .list-index-label {
+  background-color: #aac911;
+}
 .md .list-index.color-red ul {
   color: #f44336;
 }
@@ -7557,6 +7735,13 @@ html.device-android-4 .accordion-item-content {
 .md .list-index.color-darksteelblue .list-index-skip-placeholder:after,
 .md .list-index.color-darksteelblue .list-index-label {
   background-color: #34465c;
+}
+.md .list-index.color-darkergreen ul {
+  color: #aac911;
+}
+.md .list-index.color-darkergreen .list-index-skip-placeholder:after,
+.md .list-index.color-darkergreen .list-index-label {
+  background-color: #aac911;
 }
 /* === Timeline === */
 .timeline {
@@ -8337,6 +8522,11 @@ html.device-android-4 .accordion-item-content {
 .md .color-theme-darksteelblue .timeline-month-title {
   background: #34465c;
 }
+.md .color-theme-darkergreen .timeline-item-date,
+.md .color-theme-darkergreen .timeline-year-title,
+.md .color-theme-darkergreen .timeline-month-title {
+  background: #aac911;
+}
 .md .timeline.color-theme-red .timeline-item-date,
 .md .timeline.color-theme-red .timeline-year-title,
 .md .timeline.color-theme-red .timeline-month-title {
@@ -8391,6 +8581,11 @@ html.device-android-4 .accordion-item-content {
 .md .timeline.color-theme-darksteelblue .timeline-year-title,
 .md .timeline.color-theme-darksteelblue .timeline-month-title {
   background: #34465c;
+}
+.md .timeline.color-theme-darkergreen .timeline-item-date,
+.md .timeline.color-theme-darkergreen .timeline-year-title,
+.md .timeline.color-theme-darkergreen .timeline-month-title {
+  background: #aac911;
 }
 /* === Tabs === */
 .tabs .tab {
@@ -8932,6 +9127,12 @@ input[type="button"].md .card-footer a.link {
 .md .card-footer.color-theme-darksteelblue a.link {
   color: #34465c;
 }
+.md .color-theme-darkergreen .card-header a.link,
+.md .color-theme-darkergreen .card-footer a.link,
+.md .card-header.color-theme-darkergreen a.link,
+.md .card-footer.color-theme-darkergreen a.link {
+  color: #aac911;
+}
 .md .card-header a.link.color-red,
 .md .card-footer a.link.color-red {
   color: #f44336;
@@ -8975,6 +9176,10 @@ input[type="button"].md .card-footer a.link {
 .md .card-header a.link.color-darksteelblue,
 .md .card-footer a.link.color-darksteelblue {
   color: #34465c;
+}
+.md .card-header a.link.color-darkergreen,
+.md .card-footer a.link.color-darkergreen {
+  color: #aac911;
 }
 /* === Chips === */
 .chip {
@@ -9191,6 +9396,15 @@ input[type="button"].md .card-footer a.link {
   background: none;
   border-color: #34465c;
   color: #34465c;
+}
+.md .chip.color-darkergreen {
+  background: #aac911;
+  color: #fff;
+}
+.md .chip.color-darkergreen.chip-outline {
+  background: none;
+  border-color: #aac911;
+  color: #aac911;
 }
 /* === Input === */
 input[type="text"],
@@ -9888,6 +10102,14 @@ textarea {
 .md .color-theme-darksteelblue .input-after:after {
   background: #34465c;
 }
+.md .color-theme-darkergreen .item-input-focused .item-label,
+.md .color-theme-darkergreen .item-input-focused .item-floating-label {
+  color: #aac911;
+}
+.md .color-theme-darkergreen .item-input-focused .item-input-wrap:after,
+.md .color-theme-darkergreen .input-after:after {
+  background: #aac911;
+}
 .md .item-input-focused.color-red .item-label,
 .md .item-input-focused.color-red .item-floating-label {
   color: #f44336;
@@ -9975,6 +10197,14 @@ textarea {
 .md .item-input-focused.color-darksteelblue .item-input-wrap:after,
 .md .input-after.color-darksteelblue:after {
   background: #34465c;
+}
+.md .item-input-focused.color-darkergreen .item-label,
+.md .item-input-focused.color-darkergreen .item-floating-label {
+  color: #aac911;
+}
+.md .item-input-focused.color-darkergreen .item-input-wrap:after,
+.md .input-after.color-darkergreen:after {
+  background: #aac911;
 }
 /* === Checkbox === */
 .icon-checkbox,
@@ -10182,6 +10412,15 @@ label.item-checkbox.disabled,
 .md .color-theme-darksteelblue .checkbox .ripple-wave {
   background: rgba(52, 70, 92, 0.5);
 }
+.md .color-theme-darkergreen label.item-checkbox input[type="checkbox"]:checked ~ .icon-checkbox,
+.md .color-theme-darkergreen label.item-checkbox input[type="checkbox"]:checked ~ * .icon-checkbox,
+.md .color-theme-darkergreen .checkbox input[type="checkbox"]:checked ~ i {
+  background-color: #aac911;
+  border-color: #aac911;
+}
+.md .color-theme-darkergreen .checkbox .ripple-wave {
+  background: rgba(170, 201, 17, 0.5);
+}
 .md label.item-checkbox.color-red input[type="checkbox"]:checked ~ .icon-checkbox,
 .md label.item-checkbox.color-red input[type="checkbox"]:checked ~ * .icon-checkbox,
 .md .checkbox.color-red input[type="checkbox"]:checked ~ i {
@@ -10280,6 +10519,15 @@ label.item-checkbox.disabled,
 }
 .md .checkbox.color-darksteelblue .ripple-wave {
   background: rgba(52, 70, 92, 0.5);
+}
+.md label.item-checkbox.color-darkergreen input[type="checkbox"]:checked ~ .icon-checkbox,
+.md label.item-checkbox.color-darkergreen input[type="checkbox"]:checked ~ * .icon-checkbox,
+.md .checkbox.color-darkergreen input[type="checkbox"]:checked ~ i {
+  background-color: #aac911;
+  border-color: #aac911;
+}
+.md .checkbox.color-darkergreen .ripple-wave {
+  background: rgba(170, 201, 17, 0.5);
 }
 /* === Radio === */
 .icon-radio {
@@ -10568,6 +10816,22 @@ label.item-radio.disabled,
 .md .color-theme-darksteelblue .radio .ripple-wave {
   background: rgba(52, 70, 92, 0.5);
 }
+.md .color-theme-darkergreen .icon-radio:after {
+  background-color: #aac911;
+}
+.md .color-theme-darkergreen label.item-radio input[type="radio"]:checked ~ .icon-radio,
+.md .color-theme-darkergreen label.item-radio input[type="radio"]:checked ~ * .icon-radio,
+.md .color-theme-darkergreen .radio input[type="radio"]:checked ~ .icon-radio {
+  border-color: #aac911;
+}
+.md .color-theme-darkergreen label.item-radio input[type="radio"]:checked ~ .icon-radio:after,
+.md .color-theme-darkergreen label.item-radio input[type="radio"]:checked ~ * .icon-radio:after,
+.md .color-theme-darkergreen .radio input[type="radio"]:checked ~ .icon-radio:after {
+  background-color: #aac911;
+}
+.md .color-theme-darkergreen .radio .ripple-wave {
+  background: rgba(170, 201, 17, 0.5);
+}
 .md .radio.color-red .icon-radio:after {
   background-color: #f44336;
 }
@@ -10744,6 +11008,22 @@ label.item-radio.disabled,
 .md .radio.color-darksteelblue .ripple-wave {
   background: rgba(52, 70, 92, 0.5);
 }
+.md .radio.color-darkergreen .icon-radio:after {
+  background-color: #aac911;
+}
+.md label.item-radio.color-darkergreen input[type="radio"]:checked ~ .icon-radio,
+.md label.item-radio.color-darkergreen input[type="radio"]:checked ~ * .icon-radio,
+.md .radio.color-darkergreen input[type="radio"]:checked ~ .icon-radio {
+  border-color: #aac911;
+}
+.md label.item-radio.color-darkergreen input[type="radio"]:checked ~ .icon-radio:after,
+.md label.item-radio.color-darkergreen input[type="radio"]:checked ~ * .icon-radio:after,
+.md .radio.color-darkergreen input[type="radio"]:checked ~ .icon-radio:after {
+  background-color: #aac911;
+}
+.md .radio.color-darkergreen .ripple-wave {
+  background: rgba(170, 201, 17, 0.5);
+}
 /* === Toggle === */
 .toggle {
   display: inline-block;
@@ -10887,6 +11167,12 @@ label.item-radio.disabled,
 .md .color-theme-darksteelblue .toggle input[type="checkbox"]:checked + .toggle-icon:after {
   background: #34465c;
 }
+.md .color-theme-darkergreen .toggle input[type="checkbox"]:checked + .toggle-icon {
+  background: rgba(170, 201, 17, 0.5);
+}
+.md .color-theme-darkergreen .toggle input[type="checkbox"]:checked + .toggle-icon:after {
+  background: #aac911;
+}
 .md .toggle.color-red input[type="checkbox"]:checked + .toggle-icon {
   background: rgba(244, 67, 54, 0.5);
 }
@@ -10952,6 +11238,12 @@ label.item-radio.disabled,
 }
 .md .toggle.color-darksteelblue input[type="checkbox"]:checked + .toggle-icon:after {
   background: #34465c;
+}
+.md .toggle.color-darkergreen input[type="checkbox"]:checked + .toggle-icon {
+  background: rgba(170, 201, 17, 0.5);
+}
+.md .toggle.color-darkergreen input[type="checkbox"]:checked + .toggle-icon:after {
+  background: #aac911;
 }
 /* === Range Slider === */
 .range-slider {
@@ -11161,6 +11453,12 @@ label.item-radio.disabled,
 .md .color-theme-darksteelblue .range-slider .range-knob-label:before {
   background-color: #34465c;
 }
+.md .color-theme-darkergreen .range-slider .range-bar-active,
+.md .color-theme-darkergreen .range-slider .range-knob,
+.md .color-theme-darkergreen .range-slider .range-knob-label,
+.md .color-theme-darkergreen .range-slider .range-knob-label:before {
+  background-color: #aac911;
+}
 .md .range-slider.color-red .range-bar-active,
 .md .range-slider.color-red .range-knob,
 .md .range-slider.color-red .range-knob-label,
@@ -11226,6 +11524,12 @@ label.item-radio.disabled,
 .md .range-slider.color-darksteelblue .range-knob-label,
 .md .range-slider.color-darksteelblue .range-knob-label:before {
   background-color: #34465c;
+}
+.md .range-slider.color-darkergreen .range-bar-active,
+.md .range-slider.color-darkergreen .range-knob,
+.md .range-slider.color-darkergreen .range-knob-label,
+.md .range-slider.color-darkergreen .range-knob-label:before {
+  background-color: #aac911;
 }
 /* === Stepper === */
 .stepper {
@@ -12129,6 +12433,58 @@ label.item-radio.disabled,
 .md .color-theme-darksteelblue .stepper-fill-md .stepper-button-plus:before {
   background: #fff;
 }
+.md .color-theme-darkergreen .stepper-button,
+.md .color-theme-darkergreen .stepper-button-minus,
+.md .color-theme-darkergreen .stepper-button-plus {
+  border-color: #aac911;
+  color: #aac911;
+}
+.md .color-theme-darkergreen .stepper-button-plus:after,
+.md .color-theme-darkergreen .stepper-button-minus:after,
+.md .color-theme-darkergreen .stepper-button-plus:before,
+.md .color-theme-darkergreen .stepper-button-minus:before {
+  background: #aac911;
+}
+.md .color-theme-darkergreen .stepper-value,
+.md .color-theme-darkergreen .stepper-input-wrap {
+  border-top-color: #aac911;
+  border-bottom-color: #aac911;
+}
+.md .color-theme-darkergreen .stepper-value,
+.md .color-theme-darkergreen .stepper-input-wrap input {
+  color: #aac911;
+}
+.md .color-theme-darkergreen .stepper-fill .stepper-button,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button,
+.md .color-theme-darkergreen .stepper-fill .stepper-button-minus,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button-minus,
+.md .color-theme-darkergreen .stepper-fill .stepper-button-plus,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button-plus {
+  background-color: #aac911;
+  color: #fff;
+}
+.md .color-theme-darkergreen .stepper-fill .stepper-button.active-state,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button.active-state,
+.md .color-theme-darkergreen .stepper-fill .stepper-button-minus.active-state,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button-minus.active-state,
+.md .color-theme-darkergreen .stepper-fill .stepper-button-plus.active-state,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button-plus.active-state {
+  background: #8aa30e;
+}
+.md .color-theme-darkergreen .stepper-fill .stepper-button:after,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button:after,
+.md .color-theme-darkergreen .stepper-fill .stepper-button-minus:after,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button-minus:after,
+.md .color-theme-darkergreen .stepper-fill .stepper-button-plus:after,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button-plus:after,
+.md .color-theme-darkergreen .stepper-fill .stepper-button:before,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button:before,
+.md .color-theme-darkergreen .stepper-fill .stepper-button-minus:before,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button-minus:before,
+.md .color-theme-darkergreen .stepper-fill .stepper-button-plus:before,
+.md .color-theme-darkergreen .stepper-fill-md .stepper-button-plus:before {
+  background: #fff;
+}
 .md .stepper.color-red .stepper-button,
 .md .stepper.color-red .stepper-button-minus,
 .md .stepper.color-red .stepper-button-plus {
@@ -12699,6 +13055,58 @@ label.item-radio.disabled,
 .md .stepper-fill-md.color-darksteelblue .stepper-button-minus:before,
 .md .stepper-fill.color-darksteelblue .stepper-button-plus:before,
 .md .stepper-fill-md.color-darksteelblue .stepper-button-plus:before {
+  background: #fff;
+}
+.md .stepper.color-darkergreen .stepper-button,
+.md .stepper.color-darkergreen .stepper-button-minus,
+.md .stepper.color-darkergreen .stepper-button-plus {
+  border-color: #aac911;
+  color: #aac911;
+}
+.md .stepper.color-darkergreen .stepper-button-plus:after,
+.md .stepper.color-darkergreen .stepper-button-minus:after,
+.md .stepper.color-darkergreen .stepper-button-plus:before,
+.md .stepper.color-darkergreen .stepper-button-minus:before {
+  background: #aac911;
+}
+.md .stepper.color-darkergreen .stepper-value,
+.md .stepper.color-darkergreen .stepper-input-wrap {
+  border-top-color: #aac911;
+  border-bottom-color: #aac911;
+}
+.md .stepper.color-darkergreen .stepper-value,
+.md .stepper.color-darkergreen .stepper-input-wrap input {
+  color: #aac911;
+}
+.md .stepper-fill.color-darkergreen .stepper-button,
+.md .stepper-fill-md.color-darkergreen .stepper-button,
+.md .stepper-fill.color-darkergreen .stepper-button-minus,
+.md .stepper-fill-md.color-darkergreen .stepper-button-minus,
+.md .stepper-fill.color-darkergreen .stepper-button-plus,
+.md .stepper-fill-md.color-darkergreen .stepper-button-plus {
+  background-color: #aac911;
+  color: #fff;
+}
+.md .stepper-fill.color-darkergreen .stepper-button.active-state,
+.md .stepper-fill-md.color-darkergreen .stepper-button.active-state,
+.md .stepper-fill.color-darkergreen .stepper-button-minus.active-state,
+.md .stepper-fill-md.color-darkergreen .stepper-button-minus.active-state,
+.md .stepper-fill.color-darkergreen .stepper-button-plus.active-state,
+.md .stepper-fill-md.color-darkergreen .stepper-button-plus.active-state {
+  background: #8aa30e;
+}
+.md .stepper-fill.color-darkergreen .stepper-button:after,
+.md .stepper-fill-md.color-darkergreen .stepper-button:after,
+.md .stepper-fill.color-darkergreen .stepper-button-minus:after,
+.md .stepper-fill-md.color-darkergreen .stepper-button-minus:after,
+.md .stepper-fill.color-darkergreen .stepper-button-plus:after,
+.md .stepper-fill-md.color-darkergreen .stepper-button-plus:after,
+.md .stepper-fill.color-darkergreen .stepper-button:before,
+.md .stepper-fill-md.color-darkergreen .stepper-button:before,
+.md .stepper-fill.color-darkergreen .stepper-button-minus:before,
+.md .stepper-fill-md.color-darkergreen .stepper-button-minus:before,
+.md .stepper-fill.color-darkergreen .stepper-button-plus:before,
+.md .stepper-fill-md.color-darkergreen .stepper-button-plus:before {
   background: #fff;
 }
 /* === Smart Select === */
@@ -14514,6 +14922,27 @@ label.item-radio.disabled,
 .md .color-darksteelblue .calendar-day .calendar-day-event {
   background: #34465c;
 }
+.md .color-theme-darkergreen .calendar-header,
+.md .color-darkergreen .calendar-header {
+  background: #aac911;
+}
+.md .color-theme-darkergreen .calendar-day.calendar-day-today .calendar-day-number,
+.md .color-darkergreen .calendar-day.calendar-day-today .calendar-day-number {
+  color: #aac911;
+}
+.md .color-theme-darkergreen .calendar-day.calendar-day-selected .calendar-day-number,
+.md .color-darkergreen .calendar-day.calendar-day-selected .calendar-day-number {
+  background: #aac911;
+  color: #fff;
+}
+.md .color-theme-darkergreen .calendar-day.calendar-day-selected .calendar-day-number:after,
+.md .color-darkergreen .calendar-day.calendar-day-selected .calendar-day-number:after {
+  background-color: #fff;
+}
+.md .color-theme-darkergreen .calendar-day .calendar-day-event,
+.md .color-darkergreen .calendar-day .calendar-day-event {
+  background: #aac911;
+}
 /* === Picker === */
 .picker {
   width: 100%;
@@ -15579,6 +16008,14 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active) .table
 .md .color-darksteelblue .data-table-title-selected {
   color: #34465c;
 }
+.md .color-theme-darkergreen .data-table-header-selected,
+.md .data-table-header-selected.color-darkergreen {
+  background: rgba(170, 201, 17, 0.1);
+}
+.md .color-theme-darkergreen .data-table-title-selected,
+.md .color-darkergreen .data-table-title-selected {
+  color: #aac911;
+}
 /* === FAB === */
 .fab {
   position: absolute;
@@ -16146,6 +16583,22 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active) .table
 .md .color-theme-darksteelblue.fab-morph {
   background: #34465c;
 }
+.md .color-theme-darkergreen .fab > a,
+.md .color-theme-darkergreen .fab-buttons a,
+.md .color-theme-darkergreen.fab > a,
+.md .color-theme-darkergreen.fab-buttons a {
+  background: #aac911;
+}
+.md .color-theme-darkergreen .fab > a.active-state,
+.md .color-theme-darkergreen .fab-buttons a.active-state,
+.md .color-theme-darkergreen.fab > a.active-state,
+.md .color-theme-darkergreen.fab-buttons a.active-state {
+  background: #8aa30e;
+}
+.md .color-theme-darkergreen .fab-morph,
+.md .color-theme-darkergreen.fab-morph {
+  background: #aac911;
+}
 .md .fab.color-red > a,
 .md .fab.color-red .fab-buttons > a,
 .md .fab-buttons.color-red a,
@@ -16332,6 +16785,23 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active) .table
 }
 .md .fab-morph.color-darksteelblue {
   background: #34465c;
+}
+.md .fab.color-darkergreen > a,
+.md .fab.color-darkergreen .fab-buttons > a,
+.md .fab-buttons.color-darkergreen a,
+.md .fab > a.color-darkergreen,
+.md .fab .fab-buttons > a.color-darkergreen {
+  background: #aac911;
+}
+.md .fab.color-darkergreen > a.active-state,
+.md .fab.color-darkergreen .fab-buttons > a.active-state,
+.md .fab-buttons.color-darkergreen a.active-state,
+.md .fab > a.color-darkergreen.active-state,
+.md .fab .fab-buttons > a.color-darkergreen.active-state {
+  background: #8aa30e;
+}
+.md .fab-morph.color-darkergreen {
+  background: #aac911;
 }
 .md.device-iphone-x .fab[class*="-bottom"] {
   bottom: calc(16px + constant(safe-area-inset-bottom));
@@ -18320,6 +18790,34 @@ button.swiper-pagination-bullet {
 .md .color-theme-darksteelblue.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
   background: #34465c;
 }
+.md .swiper-button-prev.color-darkergreen,
+.md .swiper-container-rtl .swiper-button-next.color-darkergreen,
+.md .color-theme-darkergreen .swiper-button-prev,
+.md .color-theme-darkergreen .swiper-container-rtl .swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23aac911'%2F%3E%3C%2Fsvg%3E");
+}
+.md .swiper-button-next.color-darkergreen,
+.md .swiper-container-rtl .swiper-button-prev.color-darkergreen,
+.md .color-theme-darkergreen .swiper-button-next,
+.md .color-theme-darkergreen .swiper-container-rtl .swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23aac911'%2F%3E%3C%2Fsvg%3E");
+}
+.md .color-darkergreen .swiper-pagination-bullet-active,
+.md .color-theme-darkergreen .swiper-pagination-bullet-active {
+  background: #aac911;
+}
+.md .color-darkergreen .swiper-pagination-progressbar,
+.md .color-theme-darkergreen .swiper-pagination-progressbar,
+.md .color-darkergreen.swiper-pagination-progressbar,
+.md .color-theme-darkergreen.swiper-pagination-progressbar {
+  background: rgba(170, 201, 17, 0.25);
+}
+.md .color-darkergreen .swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
+.md .color-theme-darkergreen .swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
+.md .color-darkergreen.swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
+.md .color-theme-darkergreen.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #aac911;
+}
 /* === Photo Browser === */
 .photo-browser {
   position: absolute;
@@ -18686,6 +19184,12 @@ button.swiper-pagination-bullet {
 .md .color-theme-darksteelblue .photo-browser-page:not(.photo-browser-page-dark) .toolbar,
 .md .color-darksteelblue .photo-browser-page:not(.photo-browser-page-dark) .toolbar {
   background-color: rgba(52, 70, 92, 0.95);
+}
+.md .color-theme-darkergreen .photo-browser-page:not(.photo-browser-page-dark) .navbar,
+.md .color-darkergreen .photo-browser-page:not(.photo-browser-page-dark) .navbar,
+.md .color-theme-darkergreen .photo-browser-page:not(.photo-browser-page-dark) .toolbar,
+.md .color-darkergreen .photo-browser-page:not(.photo-browser-page-dark) .toolbar {
+  background-color: rgba(170, 201, 17, 0.95);
 }
 .md.device-iphone-x .photo-browser-captions {
   bottom: constant(safe-area-inset-bottom);
@@ -19951,4 +20455,13 @@ iframe#viAd {
 }
 .md .border-color-darksteelblue {
   border-color: #34465c !important;
+}
+.md .text-color-darkergreen {
+  color: #aac911 !important;
+}
+.md .bg-color-darkergreen {
+  background-color: #aac911 !important;
+}
+.md .border-color-darkergreen {
+  border-color: #aac911 !important;
 }
